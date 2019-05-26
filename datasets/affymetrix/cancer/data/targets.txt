@@ -1,0 +1,9 @@
+Name	FileName	Target
+NT_rep1	GSM23372.CEL	Untreated
+NT_rep2	GSM23373.CEL	Untreated
+NT_rep3	GSM23377.CEL	Untreated
+T_rep1	GSM23382.CEL	Treated
+T_rep2	GSM23383.CEL	Treated
+T_rep3	GSM23384.CEL	Treated
+
+

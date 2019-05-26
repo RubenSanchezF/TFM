@@ -1,0 +1,76 @@
+﻿@import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600,700");
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900');
+/*****************************BASIC COLORS*************************************/
+/******************************ADVANCED COLOURS***********************************/
+/***************************PROFILE SAMPLE EXAMPLE********************************/
+body {
+  font-family: 'Graphik';
+  background-color: #grey;
+  color: #black;
+  text-transform: none !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Graphik';
+  font-weight: 700;
+  line-height: 1.1;
+  border-bottom: none;
+  color: #333;
+}
+h1 {
+  margin: 0;
+  padding-left: 10px;
+  font-size: 25px;
+  /*
+  font-size: 2em;
+  margin: 0.67em 0;*/
+}
+h2 {
+  font-size: 23px;
+  padding-left: 10px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+}
+h5 {
+  font-size: 17px;
+}
+h6 {
+  font-size: 16px;
+}
+p {
+  font-family: 'Graphik';
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+#title {
+  float: left;
+  padding-bottom: 9px;
+  margin: 10px 0 0px;
+  border-bottom: 1px solid #eee;
+}
+
+
+.main-footer {
+  position: absolute;
+  bottom: 0;
+  float: left;
+  width: 100%;
+  background: #FFFFFF;
+  padding: 15px;
+  color: #333;
+  border-top: 1px solid #d2d6de;
+  margin-left: -9.8px !important;
+  z-index: 1800 !important;
+}
