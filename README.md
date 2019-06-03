@@ -8,15 +8,15 @@ This repository contains a web-based tool that allows the user to load his own e
 
 The tool is developed using shiny, a web application framework for R.
 
-# To run the tool:
+## To run the tool:
 
 1. Download the repository and extract it.
 
-2. Run ui.R or server.R
+2. Run [ui.R](https://github.com/RubenSanchezF/TFM/blob/master/ui.R) or [server.R](https://github.com/RubenSanchezF/TFM/blob/master/server.R)
 
-# Requirements:
+## Requirements:
 
-R version 3.5.3
+R version 3.5.3.
 
-Biocmanager() package installed
+[Biocmanager()](https://cran.r-project.org/web/packages/BiocManager/index.html) package installed
 
