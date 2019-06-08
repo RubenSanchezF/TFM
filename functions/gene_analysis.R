@@ -9,6 +9,12 @@ analysis_affy <- function(eset_rma_matrix, sampleInfo, method = "linear", fdr = 
   
   
   index <- apply(as.data.frame(conditions),1, function(x) which(sampleInfo[,column_conditions] == x))
+  
+  if(class(index) == "list"){
+    index <- unlist(index, use.names=FALSE)
+  }
+  
+  which(sampleInfo[,column_conditions] == "healthy control")
   # Levels
   lev <- factor(sampleInfo[,column_conditions][index], levels=unique(conditions))
   lev <- as.factor(make.names(lev))

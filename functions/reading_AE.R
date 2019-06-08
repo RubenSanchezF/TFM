@@ -53,12 +53,13 @@ reading_AE <- function(input, norm_method){
   sampleInfo <- pData(sampleInfo)
   Name <- sampleInfo[, grep("Source.Name", colnames(sampleInfo))]
   sampleInfo$Name <- Name
+  rownames(sampleInfo) <- Name
   
   # Getting target for differential analysis
-  Target <- sampleInfo[, grep("Factor", colnames(sampleInfo))]
+  #Target <- sampleInfo[, grep("Factor", colnames(sampleInfo))]
   
   # For now we will pick the first target variable, in shiny app we will configurate this step so user can select the target
-  sampleInfo$Target <- as.data.frame(Target)[,1]
+  #sampleInfo$Target <- as.data.frame(Target)[,1]
   
   # Normalizing data if user requires to
   source("functions/normalization.R")
