@@ -307,7 +307,7 @@ server <- function(input, output, session) {
         
         if(input$normalization == "none"){
           
-          results_analysis <- gene_analysis(dataset()$data_norm, dataset()$info, input$analysis, input$fdr, input$column, input$conditions)
+          results_analysis <- analysis_affy(dataset()$data_raw, dataset()$info, input$analysis, input$fdr, input$column, input$conditions)
         } else {
           
           data <- reading_AE(input$arraycode, input$normalization)
